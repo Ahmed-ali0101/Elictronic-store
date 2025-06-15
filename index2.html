@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elictronic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+</head>
+<body>
+   <section class="header">
+     <a href="salesindex.html"><img src="logo.jpg" alt="" width="120" class="logo"></a>
+         <div>
+            <ul class="navbar">
+            <li><a  href="salesindex.html">Home</a></li>
+            <li><a  class="active" href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" ><i id="icon1" class='fas fa-shopping-cart'></i></a></li>
+               </ul> 
+               </div>
+   </section>
+
+         <section class="page_header"> 
+   </section>
+   <button type="button"  onclick="Search()" class="bt">Search</a></button>
+    <input type="text" id="searchInput" class="field" name="find" placeholder="search here ">
+     <div class="product-container">
+           
+                     <div class="pr1alt">
+         <img src="gpu2.jpg" alt="jpg" width="250" height="230" id="cpu6"  class="img">
+            <p id="pcpu6">Nvidia RTX 3080 Founders Edition
+                16GB GDDR6X
+                   256BIT   
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$599.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                      <!--
+                     <div class="pr2">
+                     
+         <img src="gpu3.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>MSI GeForce RTX 3050 Ventus 2X XS White 8G OC 
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked" style="color: black;"></span>
+                        <span  class="fa fa-star" style="color: black;"></span><br>
+                         <span id="price">$300.53</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>  
+                     <div class="pr3">
+         <img src="gpu4.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>GTX 1060 6GB Graphics Card GDDR5 192Bit 
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$599.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                     <div class="pr4">
+         <img src="gpu5.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>GIGABYTE RTX 3070 Ti Gaming OC  Graphics Card 8GB 256-bit GDDR6X
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$599.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <div class="pr5">
+         <img src="amd1.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star" style="color:black"></span><br>
+                         <span id="price">$599.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <div class="pr6">
+         <img src="amd2.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>GIGABYTE Radeon RX 6700 XT Gaming OC Graphics Card 12GB
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$428.02</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <div class="pr7">
+         <img src="amd3.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AISURIX RX 580 Graphics Card, 2048SP, Real 8GB, GDDR5, 256 Bit
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$102.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                  <div class="pr8">
+         <img src="cpuamd1.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AMD Ryzen 5 5500 6-Core, 12-Thread Unlocked Desktop Processor
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$73.00</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+ <div class="pr9">
+         <img src="cpuamd2.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AMD Ryzen 7 5700X 8-Core, 16-Thread Unlocked Desktop Processor
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$164.95</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <div class="pr10">
+         <img src="cpuamd3.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AMD RYZEN 7 9800X3D 8-Core, 16-Thread Desktop Processor
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$472.02</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+
+                  <div class="pr11">
+         <img src="cpuamd4.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AMD Ryzen 5 7600X 6-Core, 12-Thread Unlocked Desktop Processor
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="rice">$189.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+
+                   <div class="pr12">
+         <img src="cpuamd5.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>AMD Ryzen 7 7700X 8-Core, 16-Thread Unlocked Desktop Processor
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$267.22</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>  
+                      <div class="pr13">
+         <img src="cpu2.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>Intel Core i9-12900KF Gaming Desktop Processor 16 Cores up to 5.2 GHz
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$269.90</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                      <div class="pr14">
+         <img src="cpu3.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>Intel Core Ultra 7 Desktop Processor 265K - 20 cores up to 5.5 GHz
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$289.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                      <div class="pr15">
+         <img src="cpu4.jpg" alt="jpg" width="250" height="150"  class="img">
+            <p>Intel Core i7-12700KF Desktop Processor 12 Cores up to 5.0 GHz
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$179.97</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                   fa fa-star"></span><br>
+                         <span id="p  </div>
+!-->
+             <div class="footer" >
+          <div class="contact">
+            
+           <img src="logo.jpg" class="logo3" alt="jpg" width="100" >
+            <h3 class="cc2">Contact</h3>
+             <p>
+               <i  class="fas fa-map-marker-alt" style="color: green;"></i> &nbsp; Address: Faculaty of engineering,albahr road,Sabratha,Libya 
+               <br>
+               <i  style="color: green;" class="fas fa-phone-alt"></i> &nbsp; Phone: +218 92 308 5591
+               <br>
+               <i  style="color: green;" class="fas fa-envelope"></i> &nbsp; Email: agentahmed82@gmail.com
+               <br>
+               <i style="color: green;" class="fas fa-phone-alt"></i> &nbsp; Phone: +218 94 437 4881
+                <br>
+                <br>
+                <br>
+                <br>
+                <b class="tt">Follow Us</b>
+                <br>
+                <br>
+                
+                <div class="links2">
+               <a href="https://www.facebook.com/ahmed.embark.75" target="_blank"> <i class="fab fa-facebook-f facebook-icon"></a></i>
+                <a href="https://x.com/home" target="_blank"><i class="fab fa-twitter" ></a></i>
+                  <a href="https://www.instagram.com/ahmed_embark/#" target="_blank"><i class="fab fa-instagram "></a></i>
+                   <a href="https://www.youtube.com/@AhmedAli.73" target="_blank"><i class="fab fa-youtube"></a></i>
+                </div>           
+                  </p>
+          </div>
+          
+               <div class="copyright2">
+                <P>
+                &copy;2025.Elictronic store.-Ahmedali&Mohammedshabshob 
+                <br>
+                All Rights Reserved.  
+                </P>  
+               </div>
+
+
+
+            </div>
+     <!-- Back to Top Button -->
+  <button onclick="scrollToTop()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</body>
+<script src="script.js">
+
+</script>
+</html>
