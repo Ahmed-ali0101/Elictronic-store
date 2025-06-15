@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elictronic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+</head>
+<body>
+   <section class="header">
+     <a href="salesindex.html"><img src="logo.jpg" alt="" width="120" class="logo"></a>
+         <div>
+            <ul class="navbar">
+            <li><a  href="salesindex.html">Home</a></li>
+            <li><a  class="active" href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" ><i id="icon1" class='fas fa-shopping-cart'></i></a></li>
+               </ul> 
+               </div>
+   </section>
+
+         <section class="page_header"> 
+   </section>
+   <button type="button"  onclick="Search()" class="bt">Search</a></button>
+    <input type="text" id="searchInput" class="field" name="find" placeholder="search here ">
+     <div class="product-container">
+             <div class="pr" id="pow">
+         <img src="pow1.jpg" alt="jpg" width="250" height="200" class="img" >
+            <p>CORSAIR RM1000x Fully Modular Low-Noise ATX Power Supply
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span>
+                        </p>
+                        <span id="price">$169.99</span> 
+                       <a href="#" class="cart"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+                     </div>
+                     <!--  
+                     <div class="pr1" id="pow1">
+         <img src="pow2.jpg" alt="jpg" width="250" height="220" id="pow2"  class="img">
+            <p id="ppow2">ASUS TUF Gaming 1000W Gold 
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$163.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                     <div class="pr2">
+         <img src="pow3.jpg" alt="jpg" width="250" height="220" id="pow3" class="img">
+            <p id="ppow3">NZXT C850 Gold ATX 3.1 - PC Gaming Power Supply - 850 Watts - 80 Plus Gold  
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked" style="color: black;"></span>
+                        <span  class="fa fa-star" style="color: black;"></span><br>
+                         <span id="price">$124.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>  
+                     <div class="pr3">
+         <img src="pow4.jpg" alt="jpg" width="250" height="220" id="pow4"  class="img">
+            <p id="ppow4">GIGABYTE 750W PSU - 80 Plus Gold Certified  
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$89.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                     <div class="pr4">
+         <img src="pow5.jpg" alt="jpg" width="250" height="220" id="pow5"  class="img">
+            <p id="ppow5">ASUS ROG Strix 1200W Gold Aura Edition
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$264.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <div class="pr5">
+         <img src="pow6.jpg" alt="jpg" width="250" height="220" id="pow6" class="img">
+            <p id="ppow6">Lian Li Edge Serie - 1200W Full Modular Power Supply
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star" style="color:black"></span><br>
+                         <span id="price">$184.98</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                       -->
+                     <div class="pr6" id="pr6aa">
+         <img src="pow7.jpg" alt="jpg" width="250" height="220" id="pow7"  class="img">
+            <p id="ppow7">Corsair RM1000x Shift Fully Modular ATX Power Supply
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$234.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                     <!--  
+                     <div class="pr7">
+         <img src="pow8.jpg" alt="jpg" width="250" height="220" id="pow8" class="img">
+            <p id="ppow8">Lian Li Edge Series-1300W Full Modular Power Supply
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$224.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                  <div class="pr8">
+         <img src="case1.jpg" alt="jpg" width="250" height="220" id="case1"  class="img">
+            <p id="pcase1">NZXT H5 Flow 2024 - Compact ATX Mid-Tower PC Gaming Case
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$84..95</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                    <div class="pr9">
+         <img src="pow9.jpg" alt="jpg" width="250" height="220" id="pow9"  class="img">
+            <p id="ppow9">MSI MAG A850GL PCIE 5.1 & ATX 3.1 Gaming Power Supply
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$73.00</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                       -->
+                     <div class="pr10" id="pr10a">
+         <img src="case2.jpg" alt="jpg" width="250" height="220" id="case2" class="img">
+            <p id="pcase2">CORSAIR 3500X ARGB  ATX PC Case Panoramic Tempered Glass
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$109.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                    <!--                    
+                  <div class="pr11">
+         <img src="case3.jpg" alt="jpg" width="250" height="220" id="case3" class="img">
+            <p id="pcase3">Cooler Master MasterBox Q300L Micro-ATX Tower with Magnetic Design 
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$39.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+
+                   <div class="pr12">
+         <img src="case5.jpg" alt="jpg" width="250" height="240" id="case5"  class="img">
+            <p id="pcase5">NZXT H6 Flow RGB Mid-Tower Airflow Case with 3 RGB Fans
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$109.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>  
+                      <div class="pr13" >
+         <img src="case6.jpg" alt="jpg" width="250" height="250" id="case6"  class="img">
+            <p id="pcase6">F600 PC Case - Pre-Installed 6 PWM ARGB Fan, ATX Mid-Tower
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$269.90</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div> 
+                      <div class="pr14">
+         <img src="case7.jpg" alt="jpg" width="250" height="220" id="case7" class="img">
+            <p id="pcase7">GAMEMAX 850W 80 Plus Gold Power Supply
+                    
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$99.99</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+
+                     </div>
+                      <div class="pr15">
+         <img src="case8.jpg" alt="jpg" width="250" height="220" id="case8" class="img">
+            <p id="pcase8">MUSETEX ATX PC Case, 6 PWM ARGB Fans Pre-Installed, 360MM RAD
+                     </p>
+                        <p class="star"><span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                              <span  class="fa fa-star checked"></span>
+                           <span  class="fa fa-star checked"></span>
+                        <span  class="fa fa-star"></span><br>
+                         <span id="price">$179.97</span> 
+                                                <a href="#" class="cart1"> <i id="icon2" class='fas fa-shopping-cart'></i> </a>
+                             -->
+                     </div>
+                  <div class="pag">
+               <button type="button" class="pagbtn" value="1"><a href="shop.html" class="num">1</a></button>
+               <button type="button" class="pagbtn2" value="2"><a href="shopw.html" class="num2">2</a></button> 
+                  </div>
+             <div class="footer" >
+               
+          <div class="contact">
+            
+           <img src="logo.jpg" class="logo2" alt="jpg" width="100" >
+            <h3 class="cc">Contact</h3>
+             <p class="pcontact">
+               <i  class="fas fa-map-marker-alt" style="color: green;"></i> &nbsp; Address: Faculaty of engineering,albahr road,Sabratha,Libya 
+               <br>
+               <i  style="color: green;" class="fas fa-phone-alt"></i> &nbsp; Phone: +218 92 308 5591
+               <br>
+               <i  style="color: green;" class="fas fa-envelope"></i> &nbsp; Email: agentahmed82@gmail.com
+               <br>
+               <i style="color: green;" class="fas fa-phone-alt"></i> &nbsp; Phone: +218 94 437 4881
+                <br>
+                <br>
+                <br>
+                <br>
+                <b class="tt1">Follow Us</b>
+                <br>
+                <br>
+                
+                <div class="links">
+               <a href="https://www.facebook.com/ahmed.embark.75" target="_blank"> <i class="fab fa-facebook-f facebook-icon"></a></i>
+                <a href="https://x.com/home" target="_blank"><i class="fab fa-twitter" ></a></i>
+                  <a href="https://www.instagram.com/ahmed_embark/#" target="_blank"><i class="fab fa-instagram "></a></i>
+                   <a href="https://www.youtube.com/@AhmedAli.73" target="_blank"><i class="fab fa-youtube"></a></i>
+                </div>           
+                  </p>
+          </div>
+          
+               <div class="copyright">
+                <P>
+                &copy;2025.Elictronic store.-Ahmedali&Mohammedshabshob 
+                <br>
+                All Rights Reserved.  
+                </P>  
+               </div>
+
+               
+          
+            </div>
+     <!-- Back to Top Button -->
+  <button onclick="scrollToTop()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</body>
+<script src="script.js">
+
+</script>
+</html>
